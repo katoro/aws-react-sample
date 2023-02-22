@@ -1,9 +1,4 @@
 #!/bin/bash
-
-# navigate to app folder
-cd /app
-
-# install node and npm
+cd /home/ec2-user/server
 curl -sL https://rpm.nodesource.com/setup_14.x | sudo -E bash -
-sudo yum -y install nodejs npm
-npm install -g pm2@latest
+yum -y install nodejs npm
